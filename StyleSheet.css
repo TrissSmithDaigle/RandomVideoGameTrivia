@@ -1,0 +1,22 @@
+﻿body
+{
+    background-color: #000000;
+    color: #ff00ff;
+    font-family: serif;
+}
+.answer {
+    color: #ffff00;
+}
+.question {
+    color: #00ffff;
+}
+.question:hover {
+    background-color: #001A00;
+    color: #ff00ff;
+    cursor: grab;
+}
+
+    .question:active {
+        cursor: grabbing;
+        color: #00ffff;
+    }
